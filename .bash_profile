@@ -4,11 +4,13 @@ export GIT_PS1_SHOWDIRTYSTATE=true
 # Displays a % if there are untracked files
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 
-# removing lines 2 and 5 improves the prompt's response time (aprox. 500ms)
+# Removing the lines 2 and 5 improves the performance a little
 
 # COLORS (variables)
+
 YELLOW="\[\e[1;33m\]"       # path
 MAGENTA="\[\e[1;35m\]"      # branch
-CYAN="\[\e[1;36m\]"         # text
+CYAN="\[\e[0;36m\]"         # text
 
-export PS1="\n${YELLOW}\w${MAGENTA}\$(__git_ps1 ' |%s|')\n${CYAN}> "
+export PS1="\n${YELLOW}\w${MAGENTA} |\$(__git_ps1 %s)|
+${CYAN}> "
