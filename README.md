@@ -2,7 +2,7 @@
 
 ## Installation
 
-Just [download](https://github.com/oviung/git-colored-prompt/archive/master.zip) / clone this repository and place the ```.bashrc``` file in your home directory (Ex. for Win: C:\Users\\[USER_NAME]).
+Just [download](https://github.com/oviung/git-colored-prompt/archive/master.zip) / clone this repository and place the ```.bash_profile``` file in your home directory (Ex. for Win: C:\Users\\[USER_NAME]).
 
 ## Info
 
