@@ -12,5 +12,5 @@ YELLOW="\[\e[1;33m\]"       # path
 MAGENTA="\[\e[1;35m\]"      # branch
 CYAN="\[\e[0;36m\]"         # text
 
-export PS1="\n${YELLOW}\w${MAGENTA} |\$(__git_ps1 %s)|
+export PS1="\n${YELLOW}\w${MAGENTA} \$(__git_ps1 '|%s|')
 ${CYAN}> "
