@@ -16,6 +16,6 @@ Removing these two (```GIT_PS1_``` options) will improve a bit the response time
 
 ## Further Info & Tweaking
 
-*  [Colors](http://blog.lenss.nl/2012/05/adding-colors-to-php-cli-script-output/)
+* [Colors](https://wiki.archlinux.org/index.php/Color_Bash_Prompt)
 * [Prompt variables (PS1 etc)](http://ss64.com/bash/syntax-prompt.html)
 * [(__git_ps1) function](https://fedoraproject.org/wiki/Git_quick_reference#Display_current_branch_in_bash)
