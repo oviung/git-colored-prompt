@@ -1,18 +1,29 @@
 ![alt tag](https://raw.githubusercontent.com/oviung/git-colored-prompt/master/sample.png)
 
+
 ## Installation
 
-Just [download](https://github.com/oviung/git-colored-prompt/archive/master.zip) / clone this repository and place the ```.bash_profile``` file in your home directory (Ex. for Win: C:\Users\\[USER_NAME]).
+### Linux & OS X
+* Do: `wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -O ~/.git-prompt.sh`  
+OR  
+`curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh`
+* In your home directory create a `.bashrc` file if it doesn't exist.
+* Paste the contents [found here](https://github.com/oviung/git-colored-prompt/blob/master/.bashrc) inside it.
+
+### Windows
+**NOTE** - You have to use Git through Mintty not the regular command line (cmd)
+* Create a `.bash_profile` file in `C:\Users\[YOUR_USERNAME]` (to create a dot file in Windows put a dot on both sides of the name).
+* Paste the contents [found here](https://github.com/oviung/git-colored-prompt/blob/master/.bash_profile) inside it.
+
 
 ## Info
 
-* ```export GIT_PS1_SHOWDIRTYSTATE=true``` shows if there are unstaged (*) and staged (+) changes next to the branch name.
-* ```export GIT_PS1_SHOWUNTRACKEDFILES=true``` shows if there are untracked files (%).
+* ```export GIT_PS1_SHOWDIRTYSTATE=true```  
+Shows if there are unstaged (*) and staged (+) changes next to the branch name.
 
-Removing these two (```GIT_PS1_``` options) will improve a bit the response time at which the prompt is shown but it's not a performance improvement since commands can be written while the prompt is hidden (this is just <1sec delay - might depend on the size of the repository and the number of changes).
+* ```export GIT_PS1_SHOWUNTRACKEDFILES=true```  
+Shows if there are untracked files (%).
 
-* The background color in the sample image is R:18, G:19, B:23 or #121317 (this can be set in the command line's properties).
-* The font is Consolas (bold, size: 17).
 
 ## Further Info & Tweaking
 
